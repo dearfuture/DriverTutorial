@@ -1,0 +1,66 @@
+Convert:	Verbose  : 2018/4/15 16:34:35
+ConvertFile:	Information  : Converting "C:\Users\Administrator\Desktop\demo\sources"
+Parse      :	Verbose  : File contents after preprocessing:
+                        	TARGETNAME=test
+                        	TARGETPATH=obj
+                        	TARGETTYPE=DRIVER
+                        	SOURCES=test.c
+ParseIfApplies:	Verbose  : "TARGETNAME=test" was parsed as a"MacroDefinition"
+ParseIfApplies:	Verbose  : "TARGETPATH=obj" was parsed as a"MacroDefinition"
+ParseIfApplies:	Verbose  : "TARGETTYPE=DRIVER" was parsed as a"MacroDefinition"
+ParseIfApplies:	Verbose  : "SOURCES=test.c" was parsed as a"MacroDefinition"
+GenerateMsBuildFile:	Information  : Generated file "C:\Users\Administrator\Desktop\demo\sources.props"
+IsPropertyElementSetConditionally:	Verbose  : Property DriverType is set conditionally. Immediate condition ="'$(PlatformToolset)'=='WindowsApplicationForDrivers8.1'". Conditional parent element = Microsoft.Build.Construction.ProjectPropertyGroupElement
+PostProcessing                   :	Verbose  : Extracted property "PlatformToolset" with a value of "WindowsKernelModeDriver8.1" from sources.
+PostProcessing                   :	Verbose  : Extracted property "ConfigurationType" with a value of "Driver" from sources.
+PostProcessing                   :	Verbose  : Extracted property "DriverType" with a value of "WDM" from sources.
+PostProcessing                   :	Verbose  : Extracted property "TARGETNAME" with a value of "test" from sources.
+PostProcessing                   :	Verbose  : VcxProj file copied to "test.vcxproj"
+PostProcessing                   :	Verbose  : Added Project GUID: {65912699-9ACE-40D4-A3BF-2125493431AF}
+PostProcessing                   :	Information  : Generated Project File test.vcxproj
+AddIDESupport                    :	Verbose  : Attempting to add propery page support for converted targets and macros in project C:\Users\Administrator\Desktop\demo\test.vcxproj
+CheckForWellKnownTargets         :	Verbose  : Attempting to find and convert nmake targets to well-known MSBuild items, as appropriate.
+CheckForWellKnownTargetMacros:	Verbose  : Attempting to find and convert nmake target macros to well-known MSBuild items, as appropriate.
+AddIDESupport                :	Verbose  : Finished adding propery page support for converted targets and macros, changes saved to C:\Users\Administrator\Desktop\demo\test.vcxproj
+AddOverrideConditionsToProperies:	Verbose  : Appended override conditions to properties in file 'C:\Users\Administrator\Desktop\demo\sources.props' and its imports
+GetDependencyInformation        :	Information  : Checking for external project dependencies
+GetDependencyInformation        :	Verbose  : Processing the following list of primary projects
+                                             	C:\Users\Administrator\Desktop\demo\test.vcxproj
+AddPrerequisitesToSolution      :	Verbose  : Finding prerequisites for C:\Users\Administrator\Desktop\demo\test.vcxproj
+GetPrerequisiteProjects         :	Verbose  : Scanning for prerequisites for project C:\Users\Administrator\Desktop\demo\test.vcxproj
+EvaluateProject                 :	Verbose  : $(O) set to 91f53a97-e2b8-43a5-8b40-5f7d11b80d33
+ExtractIncludesFromItem         :	Verbose  : Extracting include elements from all items of type ClCompile
+ExtractIncludesFromItem         :	Verbose  : Extracting include elements from all items of type MessageCompile
+ExtractIncludesFromItem         :	Verbose  : Didn't find any items of type MessageCompile in project C:\Users\Administrator\Desktop\demo\test.vcxproj
+ExtractIncludesFromItem         :	Verbose  : Extracting include elements from all items of type Midl
+ExtractIncludesFromItem   :	Verbose  : Didn't find any items of type Midl in project C:\Users\Administrator\Desktop\demo\test.vcxproj
+ExtractIncludesFromItem   :	Verbose  : Extracting include elements from all items of type ResourceCompile
+ExtractIncludesFromItem   :	Verbose  : Didn't find any items of type ResourceCompile in project C:\Users\Administrator\Desktop\demo\test.vcxproj
+ExtractIncludesFromItemMetadata:	Verbose  : Extracting include elements from metadata AdditionalDependencies on item type Link, using splitter ;
+ExtractIncludesFromItemMetadata:	Verbose  : Extracting include elements from metadata AdditionalIncludeDirectories on item type ClCompile, using splitter ;
+FindPreReqProjectsInReferences :	Verbose  : Ignoring following path since it references the project's own $(O) C:\Users\Administrator\Desktop\demo\91f53a97-e2b8-43a5-8b40-5f7d11b80d33
+GetPrerequisiteProjects        :	Verbose  : No prerequisite projects found for project C:\Users\Administrator\Desktop\demo\test.vcxproj
+AddPrerequisitesToSolution     :	Verbose  : Project C:\Users\Administrator\Desktop\demo\test.vcxproj had no prerequisites, adding to solution
+GetDependencyInformation       :	Information  : The primary project collection does not contain any projects that depend on others.
+CreateSolutionIncludingDependencies:	Verbose  : Attempting to generate solution file C:\Users\Administrator\Desktop\demo\test.sln from projects list
+CreatePackage                      :	Verbose  : Checking if any of the following projects should be packaged
+                                                	 C:\Users\Administrator\Desktop\demo\test.vcxproj
+CreatePackage                      :	Verbose  : Project test.vcxproj will be packaged because it is a driver project
+CreatePackage                      :	Verbose  : Generating package project
+CreatePackage                      :	Verbose  : Adding reference to project ..\test.vcxproj with project guid {65912699-9ACE-40D4-A3BF-2125493431AF}
+CreatePackage                      :	Verbose  : Setting package project DebuggerFlavor to: DbgengKernelDebugger
+CreatePackage                      :	Information  : Generated Package Project file 'C:\Users\Administrator\Desktop\demo\test-Package\test-Package.vcxproj'
+InitializeProjectsForSolution      :	Information  : Generating solution C:\Users\Administrator\Desktop\demo\test.sln from:
+                                                    	    C:\Users\Administrator\Desktop\demo\test-Package\test-Package.vcxproj
+                                                    	    C:\Users\Administrator\Desktop\demo\test.vcxproj
+ExtractProjectGuid                 :	Verbose  :  GUID {50850890-6595-4690-A878-6BF24128B93F} was extracted from project C:\Users\Administrator\Desktop\demo\test-Package\test-Package.vcxproj
+ExtractProjectGuid                 :	Verbose  :  GUID {65912699-9ACE-40D4-A3BF-2125493431AF} was extracted from project C:\Users\Administrator\Desktop\demo\test.vcxproj
+InitializeProjectsForSolution:	Verbose  : Project C:\Users\Administrator\Desktop\demo\test-Package\test-Package.vcxproj does not depend on others
+InitializeProjectsForSolution:	Verbose  : Project C:\Users\Administrator\Desktop\demo\test.vcxproj does not depend on others
+WriteProjectEntries          :	Verbose  : Added project test-Package to solution with a GUID of {50850890-6595-4690-A878-6BF24128B93F}
+WriteProjectEntries          :	Verbose  : Added project test to solution with a GUID of {65912699-9ACE-40D4-A3BF-2125493431AF}
+WriteProjectConfigurations   :	Verbose  : Writing project configurations for C:\Users\Administrator\Desktop\demo\test-Package\test-Package.vcxproj
+WriteProjectConfigurations   :	Verbose  : Writing project configurations for C:\Users\Administrator\Desktop\demo\test.vcxproj
+CreateSolutionIncludingDependencies:	Information  : Solution C:\Users\Administrator\Desktop\demo\test.sln was created successfully
+Convert                            :	Information  : ========== Project Conversion Finished: 1 Solution created with 2 Projects ==========
+Convert                            :	Verbose  : 2018/4/15 16:34:36

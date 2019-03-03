@@ -1,0 +1,8 @@
+﻿生成启动时间为 2018/12/2 18:02:03。
+     1>项目“C:\Users\Administrator\documents\visual studio 2013\Projects\ssdt\ssdt Package\ssdt Package.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\Windows Kits\8.1\build\WindowsDriver.common.targets(1366,5): error MSB3030: 无法复制文件“C:\Users\Administrator\documents\visual studio 2013\Projects\ssdt\x64\Win7Debug\ssdt.sys”，原因是找不到该文件。
+     1>已完成生成项目“C:\Users\Administrator\documents\visual studio 2013\Projects\ssdt\ssdt Package\ssdt Package.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.06

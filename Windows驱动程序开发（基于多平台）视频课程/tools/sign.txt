@@ -1,0 +1,3 @@
+makecert -r -pe -ss PrivateCertStore -n CN=mycer(Test) mycer.cer
+certmgr.exe /add mycer.cer /s /r localMachine root
+Signtool sign /v /s PrivateCertStore /n mycer(Test) /t http://timestamp.verisign.com/scripts/timestamp.dll *.sys

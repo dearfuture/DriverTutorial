@@ -1,0 +1,17 @@
+﻿C:\Users\Administrator\source\repos\asmtest\asmtest\asmtest.vcxproj(105,5): warning MSB4011: 无法再次导入“C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\BuildCustomizations\masm.props”。可能已在“C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.Shared.props (352,3)”处导入过它。这很可能是生成创作错误。将忽略此后续导入。
+C:\Users\Administrator\source\repos\asmtest\asmtest\asmtest.vcxproj(154,5): warning MSB4011: 无法再次导入“C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\BuildCustomizations\masm.targets”。可能已在“C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.common.targets (1815,3)”处导入过它。这很可能是生成创作错误。将忽略此后续导入。
+  Building 'asmtest' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Assembling test32.asm...
+test32.asm(17): warning A6004: procedure argument or local not referenced : DriverObject
+test32.asm(32): warning A6004: procedure argument or local not referenced : RegistryPath
+  Assembling test64.asm...
+  asmtest.vcxproj -> C:\Users\Administrator\source\repos\asmtest\Debug\asmtest.sys
+C:\Users\Administrator\source\repos\asmtest\asmtest\asmtest.vcxproj(105,5): warning MSB4011: 无法再次导入“C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\BuildCustomizations\masm.props”。可能已在“C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.Shared.props (352,3)”处导入过它。这很可能是生成创作错误。将忽略此后续导入。
+C:\Users\Administrator\source\repos\asmtest\asmtest\asmtest.vcxproj(154,5): warning MSB4011: 无法再次导入“C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\BuildCustomizations\masm.targets”。可能已在“C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.common.targets (1815,3)”处导入过它。这很可能是生成创作错误。将忽略此后续导入。
+  Done Adding Additional Store
+  Successfully signed: C:\Users\Administrator\source\repos\asmtest\Debug\asmtest.sys
+  
+  Inf2Cat task was skipped as there were no inf files to process
+  
+C:\Users\Administrator\source\repos\asmtest\asmtest\asmtest.vcxproj(105,5): warning MSB4011: 无法再次导入“C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\BuildCustomizations\masm.props”。可能已在“C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.Shared.props (352,3)”处导入过它。这很可能是生成创作错误。将忽略此后续导入。
+C:\Users\Administrator\source\repos\asmtest\asmtest\asmtest.vcxproj(154,5): warning MSB4011: 无法再次导入“C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\BuildCustomizations\masm.targets”。可能已在“C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.common.targets (1815,3)”处导入过它。这很可能是生成创作错误。将忽略此后续导入。

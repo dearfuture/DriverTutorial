@@ -1,0 +1,18 @@
+﻿生成启动时间为 2018/1/29 20:47:11。
+     1>项目“C:\Users\Administrator\documents\visual studio 2013\Projects\Layer\DriverB\DriverB.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Ix64\Win7Debug\ /Zi /nologo /W3 /WX /Od /Oi /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D DEPRECATE_DDK_FUNCTIONS=1 /D MSC_NOOPT /D _WIN32_WINNT=0x0601 /D WINVER=0x0601 /D WINNT=1 /D NTDDI_VERSION=0x06010000 /D DBG=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Fo"x64\Win7Debug\\" /Fd"x64\Win7Debug\vc120.pdb" /Gz /wd4748 /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /errorReport:prompt /kernel -cbstring -d2epilogunwind /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ test.c
+         test.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\documents\visual studio 2013\Projects\Layer\x64\Win7Debug\DriverB.sys" /VERSION:"6.3" /INCREMENTAL:NO /NOLOGO /WX /SECTION:"INIT,d" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x64\BufferOverflowK.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x64\ntoskrnl.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x64\hal.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x64\wmilib.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"C:\Users\Administrator\documents\visual studio 2013\Projects\Layer\x64\Win7Debug\DriverB.pdb" /SUBSYSTEM:NATIVE,"6.01" /Driver /OPT:REF /OPT:ICF /ENTRY:"GsDriverEntry" /RELEASE /IMPLIB:"C:\Users\Administrator\documents\visual studio 2013\Projects\Layer\x64\Win7Debug\DriverB.lib" /MERGE:"_TEXT=.text;_PAGE=PAGE" /MACHINE:X64 /PROFILE /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 /osversion:6.3 /pdbcompress /debugtype:pdata x64\Win7Debug\test.obj
+         DriverB.vcxproj -> C:\Users\Administrator\documents\visual studio 2013\Projects\Layer\x64\Win7Debug\DriverB.sys
+       DriverTestSign:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\signtool.exe sign /ph /sha1 "4B05AC3104FF8DCDC217AED85D1F11684159DFBD" 
+         Done Adding Additional Store
+         Successfully signed: C:\Users\Administrator\documents\visual studio 2013\Projects\Layer\x64\Win7Debug\DriverB.sys
+         
+     1>已完成生成项目“C:\Users\Administrator\documents\visual studio 2013\Projects\Layer\DriverB\DriverB.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.37

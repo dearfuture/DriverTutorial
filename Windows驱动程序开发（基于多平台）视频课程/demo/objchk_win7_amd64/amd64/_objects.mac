@@ -1,0 +1,16 @@
+
+
+AMD64_OBJECTS=\
+ $(OBJ_PATH)\$O\test.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=c:\winddk\7600.16385.1
+OBJECT_ROOT=c:\winddk\7600.16385.1
+MAKEDIR_LOWERCASE=c:\users\administrator\desktop\demo
+OBJ_PATH=c:\users\administrator\desktop\demo
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0
